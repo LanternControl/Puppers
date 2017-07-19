@@ -43,6 +43,8 @@ html {
 form {
   background-color: #eee;
   font-weight: bold;
+  padding: 20px 10px 20px 10px;
+
 }
 
 body {
@@ -55,6 +57,10 @@ body {
 
 }
 
+title {
+padding-top: 20px;
+
+}
 
 ul {
   font-weight: bold;
@@ -91,7 +97,7 @@ tr {
   height: 2px;
   padding: 1000px 1000px 1000px 1000px;
 }
-
+/*Ignore this, was testing out something. Obviously didn't work*/
 
 thead {
   color: white;
@@ -104,6 +110,8 @@ thead {
   color: white;
   border-radius: 5px;
   border-style: hidden;
+  font-weight: bold;
+  padding: 10px 22px 10px 22px;
 
 }
 
