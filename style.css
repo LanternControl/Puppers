@@ -21,10 +21,13 @@ html {
 
 /*!---this frustrates me that I can't figure out how to pick the elements*/
 
-nav  {
-  border-width: medium;
+.main_navigation a {
+  border-width: thin;
   border-style: solid;
   border-color: white;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px 10px 20px;
 }
 
 body {
@@ -34,11 +37,9 @@ body {
 
 #page_content {
   background-color: white;
-  
-}
-
 
 }
+
 
 ul {
   font-weight: bold;
@@ -67,6 +68,10 @@ table, th, td {
   height: 50px;
 }
 
+td {
+  padding: 1px 1px 1px 1px;
+}
+
 tr {
   height: 2px;
   padding: 1000px 1000px 1000px 1000px;
@@ -86,5 +91,10 @@ thead {
 
 #name {
   background-color:##eee;
+
+}
+
+#site_header {
+  height: 150px;
 
 }
