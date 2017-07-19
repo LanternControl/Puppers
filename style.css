@@ -19,17 +19,45 @@ html {
 
 }
 
+/*!---this frustrates me that I can't figure out how to pick the elements*/
+
+nav  {
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+}
+
 header {
   background-color: #ff8523;
 
 }
 
 h2 {
-  color: #1fabe5
+  color: #1fabe5;
 
 }
 
 h3 {
-  color: #1fabe5
+  color: #1fabe5;
 
+}
+
+table, th, td {
+  border-width: thin;
+  width: 50%;
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: #1fabe5;
+  border
+
+}
+
+thead {
+  color: white;
+  background-color: #1fabe5;
+
+}
+
+section {
+  background-color: ##eee;
 }
