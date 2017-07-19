@@ -84,8 +84,14 @@ thead {
 
 }
 
+section:last-child {
+  background-image: url(bg.jpg);
+
+}
+
 #submit_button {
-  background-color:#1fabe5;
+  background-color: #1fabe5;
+  color: white;
 
 }
 
