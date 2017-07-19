@@ -36,6 +36,13 @@ html {
   border-style: hidden;
   padding: 20px 20px 20px 20px;
   border-width: medium;
+  font-weight: bold;
+
+}
+
+form {
+  background-color: #eee;
+  font-weight: bold;
 }
 
 body {
@@ -92,21 +99,11 @@ thead {
 
 }
 
-section:last-child {
-  background-image: url(bg.jpg);
-
-}
-
 #submit_button {
   background-color: #1fabe5;
   color: white;
   border-radius: 5px;
   border-style: hidden;
-
-}
-
-#name {
-  background-color:##eee;
 
 }
 
