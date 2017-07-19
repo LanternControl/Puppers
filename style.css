@@ -19,8 +19,6 @@ html {
   border-color: #ffd24a
 }
 
-/*!---this frustrates me that I can't figure out how to pick the elements*/
-
 .main_navigation a {
   border-width: thin;
   border-style: solid;
@@ -28,6 +26,16 @@ html {
   border-radius: 5px;
   color: white;
   padding: 10px 20px 10px 20px;
+
+}
+
+.name {
+  background-color:#ff8523;
+  color: white;
+  border-radius: 5px;
+  border-style: hidden;
+  padding: 20px 20px 20px 20px;
+  border-width: medium;
 }
 
 body {
@@ -92,6 +100,8 @@ section:last-child {
 #submit_button {
   background-color: #1fabe5;
   color: white;
+  border-radius: 5px;
+  border-style: hidden;
 
 }
 
