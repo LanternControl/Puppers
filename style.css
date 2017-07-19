@@ -16,7 +16,7 @@ colors:
 html {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6;
-
+  border-color: #ffd24a
 }
 
 /*!---this frustrates me that I can't figure out how to pick the elements*/
@@ -25,6 +25,18 @@ nav  {
   border-width: medium;
   border-style: solid;
   border-color: white;
+}
+
+body {
+  background-image: url(bg.jpg);
+
+}
+
+
+}
+
+ul {
+  font-weight: bold;
 }
 
 header {
@@ -44,13 +56,17 @@ h3 {
 
 table, th, td {
   border-width: thin;
-  width: 50%;
   border-collapse: collapse;
   border-style: solid;
   border-color: #1fabe5;
-  border
-
+  height: 50px;
 }
+
+tr {
+  height: 2px;
+  padding: 1000px 1000px 1000px 1000px;
+}
+
 
 thead {
   color: white;
@@ -58,6 +74,12 @@ thead {
 
 }
 
-section {
-  background-color: ##eee;
+#submit_button {
+  background-color:#1fabe5;
+
+}
+
+#name {
+  background-color:##eee;
+
 }
